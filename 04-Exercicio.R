@@ -1,6 +1,6 @@
-# Exercício
+# ExercÃ­cio
 
-# cuidado: A Linguagem R é case sensitive
+# cuidado: A Linguagem R Ã© case sensitive
 
 # Definindo a pasta de trabalho
 # Substitua o caminho abaixo pela pasta no seu computador
@@ -17,15 +17,15 @@ str(notas)
 summary(notas$TurmaA)
 summary(notas$TurmaB)
 
-# Exercício 2: Qual a média de cada turma?
+# ExercÃ­cio 2: Qual a mÃ©dia de cada turma?
 mean(notas$TurmaA)
 mean(notas$TurmaB)
 
-# Exercício 3: Qual turma apresentou maior variabilidade de notas? Justifique sua resposta.
+# ExercÃ­cio 3: Qual turma apresentou maior variabilidade de notas? Justifique sua resposta.
 sd(notas$TurmaA)
 sd(notas$TurmaB)
 
-# Exercício 4 - Calcule o coeficiente de variação das 2 turmas.
+# ExercÃ­cio 4 - Calcule o coeficiente de variaÃ§Ã£o das 2 turmas.
 media_ta <- mean(notas$TurmaA)
 media_tb <- mean(notas$TurmaB)
 
@@ -38,7 +38,7 @@ cvB <-sd_tb / media_tb * 100
 cvA
 cvB
 
-# Exercício 5 - Qual nota aparece mais vezes em cada turma?
+# ExercÃ­cio 5 - Qual nota aparece mais vezes em cada turma?
 calculaModa <- function(v){
   uniqv <- unique(v)
   uniqv[which.max(tabulate(match(v, uniqv)))]
