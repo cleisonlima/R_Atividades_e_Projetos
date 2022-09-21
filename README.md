@@ -1,2 +1,2 @@
-# projetos_em_r
-Projetos em linguagens R
+# Projetos em R
+Projetos em linguagens R para meu portifólio
